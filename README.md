@@ -11,9 +11,6 @@ This Todo App allows you to manage your tasks with ease. The app provides the fo
 - **Edit Task Title:** Update task titles to better reflect your to-do list.
 - **Remove Task from the Database:** Remove tasks from the list when they're completed or no longer needed.
 
-## Screenshots
-
-![Todo App Screenshot](https://github.com/iamsaurabh7/todo/assets/screenshot.png)
 
 ## Backend
 
