@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-App</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="icon" type="image/png"
+        href="https://www.sketchappsources.com/resources/source-image/sketch-3-todo-list-app-icon-template.png">
+</head>
+
+<body>
+    <h1>TODO APP</h1>
+
+    <div class="inputBox">
+        <div class="input-group mb-3 ">
+            <input type="text" id="todo" class="form-control" placeholder="Enter Todo">
+            <button class="btn btn-outline-secondary" type="button" id="add_todo">Add Todo</button>
+        </div>
+    </div>
+
+    <hr class="border border-danger border-2 opacity-50">
+
+    <div class="container">
+        <div class="row" id="dataContainer">
+            <!-- content will be added here -->
+        </div>
+    </div>
+    <div id="popup" class="popup"></div>
+
+</body>
+
+</html>
+<script type="module" src="./main.js"></script>

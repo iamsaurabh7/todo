@@ -1,0 +1,64 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1513628253939-010e64ac66cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1500&q=80");
+  background-size: cover;
+}
+
+body > h1 {
+  color: rgb(135, 135, 187);
+  text-align: center;
+  margin-top: 2%;
+  font-family: "Fasthand", cursive;
+}
+
+.inputBox {
+  width: 70%;
+  margin: auto;
+  /* opacity: 90%; */
+}
+
+.inputBox > div:hover {
+  opacity: 90%;
+}
+
+.inputBox > div {
+  opacity: 70%;
+  /* color: white; */
+}
+
+.card-body > button {
+  margin: 5px;
+}
+
+#dataContainer > div {
+  margin-top: 3%;
+}
+
+#dataContainer > div:hover {
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px,
+    rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px,
+    rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+.card {
+  background-image: url("https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80");
+}
+
+/* Styles for the popup */
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
